@@ -1,0 +1,12 @@
+{
+    "version": "1.0",
+    "services": {
+        "osc-forward-to-pixelblaze": {
+            "publishedPorts": [{
+                "publishedAs": 13000,
+                "fromContainerPort": 13000,
+                "protocol": "udp"
+            }]
+        }
+    }
+}
